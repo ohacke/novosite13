@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resp_central</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+    h1 {
+        border-style: solid;
+        border-width: 2pt;
+        background-color: aqua;
+        text-align: center;
+    }
+    img.grande {
+        display: block;
+        border-style: solid;
+        position: relative;
+        margin: auto;
+        border-radius: 10pt;
+        filter: drop-shadow(10px 10px 10px black);
+    }
+    img.maxima {
+        display: block;
+        max-width: 100%;
+        border-style: solid;
+        position: relative;
+        margin: auto;
+        border-radius: 10pt;
+        filter: drop-shadow(10px 10px 10px black); 
+    }
+    img.fixa {
+        display: block;
+        border-width: 2pt;
+        border-style: solid;
+        position: relative;
+        margin: auto;
+        border-radius: 10pt;
+        filter: drop-shadow(10px 10px 10px black); 
+    }
+
+</style>
+
+<body>
+    <h1>Responsividade de web sites e centralização de imagens</h1>
+    <hr>
+    <h2>A seguir tem uma imagem de um por do Sol e ela irá servir para mostrar a responsividade de imagens usando a propriedade width</h2>
+    <img src="por_do Sol_1200.png" class="grande" alt="imagem do por do Sol" width="100%">
+    <hr>
+    <h3>A imagem, a seguir, é uma imagem que terá, no máximo, uma largura igual à sua largura original, através do uso da propriedade css max-width:</h3>
+    <img src="imagem_teste_900_foto.jpg" class="maxima" alt="Imagem com largura maxima">
+    <hr>
+    <h3>A imagem, a seguir, tem uma largura fixa, tem legenda e não é responsiva</h3>
+    <figure><img src="por_do Sol_1200.png" class="fixa" alt="imagem do por do Sol"> <caption>Imagem do por do Sol</caption>
+    </figure>
+    <hr>
+    <hr>
+
+</body>
+</html>
